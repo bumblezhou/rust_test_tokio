@@ -31,3 +31,9 @@ cargo run --bin echo_server
 ```bash
 cargo run --bin echo_client
 ```
+
+[1st terminal]
+```bash
+cargo run --bin future
+cargo run --bin async_future
+```
