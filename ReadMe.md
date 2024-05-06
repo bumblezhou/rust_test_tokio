@@ -5,6 +5,12 @@
 # cargo install mini-redis
 ```
 
+## How to build:
+[1st terminal]
+```bash
+cargo build
+```
+
 ## How to run:
 [1st terminal]
 ```bash
