@@ -4,7 +4,7 @@ use mini_redis::{client, Result};
 async fn main() -> Result<()> {
     let mut client = client::connect("127.0.0.1:6379").await?;
     
-    // client.set("hello", "world A".into()).await?;
+    client.set("hello", "world b".into()).await?;
 
     let result = client.get("hello").await?;
 
