@@ -21,3 +21,13 @@ cargo run --bin server
 ```bash
 cargo run --bin client
 ```
+
+[1st terminal]
+```bash
+cargo run --bin echo_server
+```
+
+[2nd terminal]
+```bash
+cargo run --bin echo_client
+```
