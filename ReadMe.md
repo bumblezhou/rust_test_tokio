@@ -14,10 +14,10 @@ cargo build
 ## How to run:
 [1st terminal]
 ```bash
-cargo run
+cargo run --bin server
 ```
 
 [2nd terminal]
 ```bash
-cargo run --example set_get_test
+cargo run --bin client
 ```
